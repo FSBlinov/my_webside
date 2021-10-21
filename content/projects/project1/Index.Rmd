@@ -1,6 +1,7 @@
 ---
-title: "Session 6: Homework 3"
-author: "Group A7"
+
+title: "mom look what i  did"
+author: "Me!"
 date: "Oct 10th 2021"
 output:
   html_document:
@@ -11,6 +12,8 @@ output:
     toc_float: yes
     code_folding: show
 ---
+
+
 
 ```{r, setup, echo=FALSE}
 knitr::opts_chunk$set(
@@ -57,6 +60,7 @@ In addition, many articles and commentators think that, e.g., [*Yield curve inve
 In our case we will look at US data and use the [FRED database](https://fred.stlouisfed.org/) to download historical yield curve rates, and plot the yield curves since 1999 to see when the yield curves flatten. If you want to know more, a very nice article that explains the [yield curve is and its inversion can be found here](https://fredblog.stlouisfed.org/2018/10/the-data-behind-the-fear-of-yield-curve-inversions/). At the end of this challenge you should produce this chart
 
 
+
 First, we will load the yield curve data file that contains data on the yield curve since 1960-01-01
 
 ```{r download_historical_yield_curve, warning=FALSE}
@@ -75,8 +79,6 @@ Our dataframe `yield_curve` has five columns (variables):
 -   `duration`: the duration, written out in all its glory!
 
 ## Plotting the yield curve
-
-This may seem long but it should be easy to produce the following three plots
 
 ### Yields on US rates by duration since 1960
 
@@ -216,4 +218,3 @@ ggplot(data_for_last_challenge_1_graph_xd, aes(date, diff)) +
 
 -   To add the grey shaded areas corresponding to recessions, we use `geom_rect()`
 -   to colour the ribbons blue/red we must see whether the spread is positive or negative and then use `geom_ribbon()`. You should be familiar with this from last week's homework on the excess weekly/monthly rentals of Santander Bikes in London.
-

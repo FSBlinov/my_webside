@@ -5,10 +5,13 @@ categories:
 date: "2017-10-31T21:28:43-05:00"
 description: ""
 draft: false
-image: pic01.jpg
+image: pic11.jpg
 keywords: ""
-slug: ipsum
-title: Ipsum
+slug: quote
+title: Quote of the day
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
+
+“Man acts as though he were the shaper and master of language, while in fact language remains the master of man.” 
+
+Martin Heidegger, “Poetry, Language, Thought” 1971
