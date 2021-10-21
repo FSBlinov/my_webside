@@ -91,7 +91,7 @@ params:
       - image: pic12.jpg
         subtitle: Hi there
         title: Bio
-        url: blogs/bio
+        url: blogs/cvcv
       - image: pic11.jpg
         subtitle: very witty! (not really)
         title: Quote of the day

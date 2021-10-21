@@ -1,14 +1,15 @@
 ---
-categories:
+categories:  
+- ""    #the front matter should be like the one found in, e.g., blog2.md. It cannot be like the normal Rmd we used
 - ""
-- ""
-date: "2017-10-31T22:26:09-05:00"
-description: hi there
+date: "2021-10-20"
+description: hi there!! # the title that will show up once someone gets to this page
 draft: false
-image: pic12.jpg
+image: "" # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
+
 keywords: ""
-slug: bio
-title: Stuff about me
+slug: cvcv # slug is the shorthand URL address... no spaces plz
+title: Stuff about me!
 ---
 
 # **Fedor (like Dostoevsky) Blinov**
@@ -36,4 +37,11 @@ Things I like (in no particular order):
 Add me on [insta](https://www.instagram.com/fsblinov/)! （╹◡╹）♡
 
 Check out my CV!
-xfun::embed_file("Fedor_BlinovCV.pdf")
+```{r,echo=FALSE, message = FALSE, warning = FALSE, results = 'hide'}
+library(knitr)
+
+knitr::include_graphics(here::here( "images","FedorBlinov_CV1.jpg"), error = FALSE)
+
+```
+
+
