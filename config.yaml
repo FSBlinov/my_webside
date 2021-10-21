@@ -1,6 +1,6 @@
-baseURL: http://example.org/
+baseURL: http://https://mydigitaldumpster.netlify.app/
 languageCode: en-us
-title: Forty
+title: Howdy partner
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
@@ -10,7 +10,7 @@ params:
     subtitle: |-
       A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
       AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Forty
+    title: Welcome to Fedor's ugly webpage
   blog: {}
   contact:
     address:
@@ -21,7 +21,7 @@ params:
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: example@domain.com
+      - email: fsblinov@gmail.com
         title: Email
     enable: yes
     phone:
