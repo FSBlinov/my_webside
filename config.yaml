@@ -82,8 +82,8 @@ params:
     showcase:
       - image: pic01.jpg
         subtitle: homework 3
-        title: Some cool confindende intervals
-        url: projects/project1
+        title: Some cool yield curve thingy
+        url: blogs/stuff
       - image: pic02.jpg
         subtitle: hehe i did it
         title: More r markdown
@@ -109,5 +109,5 @@ params:
       pellentesque lorem ipsum dolor. \n    Nullam et orci eu lorem consequat tincidunt.
       Vivamus et sagittis libero.\n    Mauris aliquet magna magna sed nunc rhoncus
       amet pharetra et feugiat tempus."
-    title: Massa libero
+    title: Have a nice dat fellow human being!
     url: blogs

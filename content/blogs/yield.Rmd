@@ -1,18 +1,16 @@
 ---
+categories:  
+- ""    #the front matter should be like the one found in, e.g., blog2.md. It cannot be like the normal Rmd we used
+- ""
+date: "2021-10-20"
+description: From my R course!! # the title that will show up once someone gets to this page
+draft: false
+image: "" # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
 
-title: "mom look what i  did"
-author: "Me!"
-date: "Oct 10th 2021"
-output:
-  html_document:
-    theme: flatly
-    highlight: zenburn
-    number_sections: yes
-    toc: yes
-    toc_float: yes
-    code_folding: show
+keywords: ""
+slug: stuff # slug is the shorthand URL address... no spaces plz
+title: Yield curve stuff!
 ---
-
 
 
 ```{r, setup, echo=FALSE}
@@ -216,5 +214,4 @@ ggplot(data_for_last_challenge_1_graph_xd, aes(date, diff)) +
   
 ```
 
--   To add the grey shaded areas corresponding to recessions, we use `geom_rect()`
--   to colour the ribbons blue/red we must see whether the spread is positive or negative and then use `geom_ribbon()`. You should be familiar with this from last week's homework on the excess weekly/monthly rentals of Santander Bikes in London.
+
