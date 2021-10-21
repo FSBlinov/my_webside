@@ -12,7 +12,6 @@ slug: stuff # slug is the shorthand URL address... no spaces plz
 title: Yield curve stuff!
 ---
 
-
 ```{r, setup, echo=FALSE}
 knitr::opts_chunk$set(
   message = FALSE, 
@@ -29,7 +28,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-
 ```{r load-libraries, echo=FALSE}
 library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
 library(mosaic)
@@ -44,7 +42,6 @@ library(tidyquant)
 library(infer)
 library(openintro)
 ```
-
 
 
 # Yield Curve inversion
@@ -157,7 +154,6 @@ recessions <- tibble(
          duration_days = To-From)
 
 
-recessions
 ```
 
 ```{r fig.height=5,  fig.width=8, out.height="100%", out.width="100%"}
