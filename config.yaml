@@ -88,7 +88,7 @@ params:
         subtitle: hehe i did it
         title: More r markdown
         url: projects/project2
-      - image: pic04.jpg
+      - image: pic12.jpg
         subtitle: Hi there
         title: Bio
         url: blogs/bio
@@ -96,10 +96,10 @@ params:
         subtitle: very witty! (not really)
         title: Quote of the day
         url: blogs/quote
-      - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+     # - image: pic06.jpg
+      #  subtitle: Feugiat Amet Tempus
+       # title: Etiam
+        #url: blogs/ipsum
   two:
     buttonText: Get Started
     enable: yes
@@ -109,5 +109,5 @@ params:
       pellentesque lorem ipsum dolor. \n    Nullam et orci eu lorem consequat tincidunt.
       Vivamus et sagittis libero.\n    Mauris aliquet magna magna sed nunc rhoncus
       amet pharetra et feugiat tempus."
-    title: Have a nice dat fellow human being!
+    title: Have a nice day fellow human being!
     url: blogs

@@ -65,7 +65,6 @@ First, we will load the yield curve data file that contains data on the yield cu
 
 yield_curve <- read_csv(here::here("data", "yield_curve.csv"))
 
-glimpse(yield_curve)
 ```
 
 Our dataframe `yield_curve` has five columns (variables):
