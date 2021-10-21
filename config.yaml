@@ -30,7 +30,7 @@ params:
   custom_js: []
   description: Your description
   error404:
-    heading: Page couldn't be found ツ. You got played like a fiddle!
+    heading: Page couldn't be found ツ. You got played like a fiddle! [dont worry this error is intentional]
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
@@ -55,7 +55,7 @@ params:
         url: https://github.com/FSBlinov
       - icon: fa-linkedin
         label: LinkedIn
-        url: hhttps://www.youtube.com/watch?v=dQw4w9WgXcQ
+        url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
   image: ''
   name: Fedor Blinov
   navigation:
