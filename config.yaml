@@ -31,7 +31,7 @@ params:
   description: Your description
   error404:
     heading: Page couldn't be found ツ. You got played like a fiddle! [dont worry this error is intentional]
-    text: Please visit [https://www.youtube.com/watch?v=dQw4w9WgXcQ](/)
+    text: Please visit [this page](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
   favicon: favicon.ico
   footer:
     copyright: I dont know prob me
