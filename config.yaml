@@ -1,6 +1,6 @@
-baseURL: http://mydigitaldumpster.org/
+baseURL: http://example.org/
 languageCode: en-us
-title: Welcome to Fedor's ugly web page
+title: Forty
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
@@ -10,8 +10,8 @@ params:
     subtitle: |-
       A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
       AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Fedor Blinov
-  blog: {I am who I am}
+    title: Hi, my name is Forty
+  blog: {}
   contact:
     address:
       - city: City, ST 00000
@@ -21,17 +21,17 @@ params:
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: fsblinov@gmail.com
+      - email: example@domain.com
         title: Email
     enable: yes
-    phone: 
-      - phone: (228) 000-1337 x1234
+    phone:
+      - phone: (000) 000-0000 x1234
         title: Phone
   custom_css: []
   custom_js: []
   description: Your description
   error404:
-    heading: Page couldn't be found ツ
+    heading: Page couldn't be found
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
